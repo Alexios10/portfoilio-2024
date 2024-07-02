@@ -16,10 +16,11 @@ const stats = [
     text: "Technologies",
   },
   {
-    num: 16,
+    num: 168,
     text: "Code commits",
   },
 ];
+
 const Stats = () => {
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">

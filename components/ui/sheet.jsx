@@ -53,6 +53,7 @@ const SheetContent = React.forwardRef(
         ref={ref}
         className={cn(sheetVariants({ side }), className)}
         {...props}
+        aria-describedby={undefined}
       >
         {children}
         <SheetPrimitive.Close className="absolute right-8 top-8 transition-opacity outline-none">
